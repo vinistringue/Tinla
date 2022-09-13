@@ -43,22 +43,25 @@
       * Só pessoas/usuários com acesso ao setor financeiro poderão gerar relatórios.
 
 
-   **[RN003] < Cadastro de novos produtos >**
+   **[RN003] < Cadastro de novos produtos (CRUD)>**
 
    * **RN01: < Pré-Requisito >**
       * Só usuários com permissão poderão cadastrar novos produtos no sistema.
 
 
-   **[RN004] < Cadastro de novos clientes >**
+   **[RN004] < Cadastro de novos clientes (CRUD) >**
 
    * **RN01: < Pré-Requisito >**
       * Apenas usuários/funcionários com permisssão para cadastrar novos clientes.
 
 
-   **[RN005] < Cadastro e remoção de funcionários/usuários >**
+   **[RN005] < Cadastro e remoção de funcionários/usuários (CRUD) >**
 
    * **RN01: < Pré-Requisito >**
       * Só usuário com permissão poderão cadastrar novos usuários/funcionários.
+
+   **[RN006] < Cadastro de novos fornecedores (CRUD) >**
+      * Apenas usuários com permissão poderão cadastrar novos fornecedores
 
 
 **REQUISITOS FUNCIONAIS**
@@ -73,19 +76,23 @@
    * **Descrição:** < O sistema deverá permitir uma fácil manipulação das movimentações financeiras da empresa e gerar um relatório >
 
 
-   **[RF003] < Cadastro de novos produtos >**
+   **[RF003] < Cadastro de novos produtos (CRUD) >**
    * **Ator:** < Vendedores e gerente >
    * **Descrição:** < O sistema deverá permitir o cadastro de novos produtos, de modo que seja fácil e bem intuitivo de cadastrar >
 
 
-   **[RF004] < Cadastro de novos clientes >**
+   **[RF004] < Cadastro de novos clientes (CRUD) >**
    * **Ator:** < Vendedores e gerente >
    * **Descrição:** < O sistema terá uma tela para cadastro de novos clientes, de forma fácil e bem intuitiva >
 
 
-   **[RF005] < Cadastro e remoção novos funcionários/usuários >**
+   **[RF005] < Cadastro e remoção novos funcionários/usuários (CRUD) >**
    * **Ator:** < Gerente >
    * **Descrião:** < O sistema deverá permitir o cadastro/remoção do funcionário/usuário de forma fácil e intuitiva >
+
+   **[RF006] < Cadastro de novos fornecedores (CRUD) >**
+   *  **Ator:** < Vendedores e Gerente >
+   *  **Descrição:** < O sistema deverá ter uma janela para cadastro (CRUD) de novos usuários >
 
 
 **REQUISITOS NÃO FUNCIONAIS**
@@ -115,19 +122,26 @@
       3. Caso funcionário/usuário tenha acesso, ele poderá gerar um relatório
 
 
-   * **Caso de uso 3: < Cadastro de novos produtos >**
+   * **Caso de uso 3: < Cadastro de novos produtos (CRUD) >**
       1. Após ter feito login no sistema, terá uma janela pra cadastro de novos produtos
       2. A janela para cadastro de novos produtos é basicamente uma tela pra cadastrar os novos produtos
       
 
-   * **Caso de uso 4: < Cadastro de novos clientes >**
+   * **Caso de uso 4: < Cadastro de novos clientes (CRUD) >**
       1. Pessoas autorizadas 
       2. Terá acesso a uma janela pra cadastro de novos clientes 
 
 
-   * **Caso de uso 5: < Cadastro e remover funcionários/usuários >**
+   * **Caso de uso 5: < Cadastro e remover funcionários/usuários (CRUD) >**
       1. Pessoas autorizada a cadastro e remoção de usuários/ funcionários
       2. Terá acesso a uma janela a cadastro e remoção de usuários/funcionários
+
+   * **Caso de uso 6: < Cadastro de novos fornecedores (CRUD) >**
+      1. Pessoas autorizadas à cadastrar novos fornecedores
+      2. Terá acesso a uma janela a cadastro (CRUD) dos fornecedores
+
+   
+       
 
 
 **TECNOLOGIAS PREVISTAS**
