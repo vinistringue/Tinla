@@ -40,6 +40,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         menCad = new javax.swing.JMenu();
         menCadCli = new javax.swing.JMenuItem();
         menCadProduto = new javax.swing.JMenuItem();
+        menCadFornecedor = new javax.swing.JMenuItem();
         MenCadUsu = new javax.swing.JMenuItem();
         menRel = new javax.swing.JMenu();
         MenRelSer = new javax.swing.JMenuItem();
@@ -98,6 +99,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
         menCad.add(menCadProduto);
+
+        menCadFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.ALT_MASK));
+        menCadFornecedor.setText("Fornecedores");
+        menCadFornecedor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menCadFornecedorActionPerformed(evt);
+            }
+        });
+        menCad.add(menCadFornecedor);
 
         MenCadUsu.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.ALT_MASK));
         MenCadUsu.setText("Usuário");
@@ -249,10 +259,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
         desktop.add(produtos);
 
 
-
-
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_menCadProdutoActionPerformed
+
+    private void menCadFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menCadFornecedorActionPerformed
+       //As linhas abaixo vão abrir o Form "TelaFornecedor" dentro do desktop pane
+        TelaFornecedor fornecedor = new TelaFornecedor();
+        fornecedor.setVisible(true);
+        desktop.add(fornecedor);
+    }//GEN-LAST:event_menCadFornecedorActionPerformed
 
     /**
      * @param args the command line arguments
@@ -304,6 +319,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     public static javax.swing.JLabel lblUsuario;
     private javax.swing.JMenu menCad;
     private javax.swing.JMenuItem menCadCli;
+    private javax.swing.JMenuItem menCadFornecedor;
     private javax.swing.JMenuItem menCadProduto;
     public static javax.swing.JMenu menRel;
     // End of variables declaration//GEN-END:variables
