@@ -61,7 +61,11 @@
       * Só usuário com permissão poderão cadastrar novos usuários/funcionários.
 
    **[RN006] < Cadastro de novos fornecedores (CRUD) >**
-      * Apenas usuários com permissão poderão cadastrar novos fornecedores
+
+   * **RN01: < Pré-Requisito >**
+      * Só usuário com permissão poderão cadastrar novos fornecedores.
+
+   
 
 
 **REQUISITOS FUNCIONAIS**
