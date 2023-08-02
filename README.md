@@ -1,15 +1,11 @@
-# TINLA - SISTEMA DE CONTROLE DE VENDAS 
+# TINLA - SISTEMA DE CONTROLE DE ESTOQUE
  
-**TINLA - SISTEMA DE CONTROLE DE VENDAS (EM ANDAMENTO)**
+**TINLA - SISTEMA DE CONTROLE DE ESTOQUE**
  
 **APRESENTAÇÃO**
 
-* O Tinla é um software para controle de vendas que possui integração entre vendas, compras, financeiro , paganmentos, recebimentos e estoque de produtos. Esta integração entre os módulos permite que o empreendedor otimize seu tempo. Agilizando ainda mais os processos operacionais você poderá se concentrar realmente no que importa, **o sucesso do seu negócio.**
 
-
-**DESCRIÇÃO DO PROJETO**
-
-* O Tinla é um projeto de controle de vendas  para negócios físicos onde você empreendedor automatizará as vendas, compras, financeiro, pagamentos, recebimentos e estoque de produtos.
+* O Tinla é um projeto de controle de estoque do seu negócio tendo um melhor controle, onde tem pode cadastrar novos clientes, novos fornecedores.
 
 
 **DESCRIÇÃO DOS USUÁRIOS**  
